@@ -39,14 +39,48 @@ nav li a:hover {
 
 h2 {
     text-align: center;
-    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .about-section {
     height: auto;
-    padding: 80px;
+    /* change padding only to top and bottom */
+    padding-top: 80px;
 }
 
 .about-section-text i{
     font-size: 60px;
+}
+
+.about-section i {
+    color: gold;
+}
+
+.about-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.about-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.image-about {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.image-about img {
+    width: 100%;
+    height: auto;
+}
+
+/* change this to only specify this section paragraph only */
+p {
+    border: 1px solid black;
+    text-align: left;
 }
