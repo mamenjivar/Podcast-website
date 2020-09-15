@@ -3,6 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+section {
+    padding-top: 70px;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /* =============================== */
 /* HEADER */
 /* =============================== */
@@ -45,7 +58,7 @@ h2 {
 .about-section {
     height: auto;
     /* change padding only to top and bottom */
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .about-section-text i{
@@ -76,11 +89,25 @@ h2 {
 
 .image-about img {
     width: 100%;
-    height: auto;
+    height: 275px;
 }
 
-/* change this to only specify this section paragraph only */
-p {
-    border: 1px solid black;
+.about-section p {
     text-align: left;
+}
+
+/* =============================== */
+/* MEET PODCASTERS */
+/* =============================== */
+.podcast-meet  img {
+    width: 100%;
+    height: auto
+}
+
+.podcast-meet h3 {
+    text-align: center;
+}
+
+.podcast-meet p {
+    text-align: justify;
 }
