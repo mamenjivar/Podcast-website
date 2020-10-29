@@ -100,8 +100,11 @@ h2 {
 /* MEET PODCASTERS */
 /* =============================== */
 .podcast-meet  img {
-    width: 100%;
-    height: auto
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .podcast-meet h3 {
@@ -110,4 +113,16 @@ h2 {
 
 .podcast-meet p {
     text-align: justify;
+}
+
+.podcast-meet .twitter-color {
+    color: #1DA1F2;
+}
+
+.podcast-meet .insta-color {
+    color: #833ab4;
+}
+
+.row-box {
+    box-shadow: -10px 10px 5px grey;
 }
