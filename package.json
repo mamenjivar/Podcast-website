@@ -1,0 +1,29 @@
+{
+  "name": "podcast-website",
+  "version": "1.0.0",
+  "description": "A podcast landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamenjivar/Podcast-website.git"
+  },
+  "author": "Miguel Menjivar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamenjivar/Podcast-website/issues"
+  },
+  "homepage": "https://github.com/mamenjivar/Podcast-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
