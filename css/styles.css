@@ -21,7 +21,7 @@ section {
 /* =============================== */
 header {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/matt-botsford-OKLqGsCT8qs-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/OKLqGsCT8qs);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
